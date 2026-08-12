@@ -34,7 +34,7 @@ async function load() {
         ...r,
         player: player?.ign || r.playerId || 'Unknown',
         playerId: r.playerId || '',
-        playerAvatar: `https://cdn.discordapp.com/embed/avatars/0.png`,
+        playerAvatar: player?.avatar || 'https://cdn.discordapp.com/embed/avatars/0.png',
         testerId: r.testerId || 'Unknown'
       };
     });
