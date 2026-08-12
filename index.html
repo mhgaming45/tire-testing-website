@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MHGAMING • Tier Results</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+<header class="topbar"><div class="brand"><div class="logo">AK</div><div><b>MHGAMING</b><span>Tier Testing Network</span></div></div><div class="live"><i></i> LIVE RESULTS</div></header>
+<main>
+<section class="hero"><div><p class="eyebrow">AK TIERS</p><h1>Player Rankings & <span>Test Results</span></h1><p class="sub">Every completed tier test, player rank and gamemode result in one place.</p></div><div class="updated" id="updated">Loading...</div></section>
+<section class="stats" id="stats"></section>
+<section class="controls"><input id="search" placeholder="Search player or Minecraft username..." autocomplete="off"><select id="mode"><option value="all">All Gamemodes</option></select><select id="tier"><option value="all">All Tiers</option></select><button id="refresh">↻ Refresh</button></section>
+<section class="tabs"><button class="tab active" data-tab="players">Players</button><button class="tab" data-tab="results">Recent Results</button></section>
+<section id="players" class="grid"></section>
+<section id="results" class="results hidden"></section>
+</main>
+<footer>DEVELOP BY MHGAMING</footer>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body></html>
